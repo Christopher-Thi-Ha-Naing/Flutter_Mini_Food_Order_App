@@ -92,14 +92,14 @@ class _FoodCardPageState extends State<Cartscreen> {
                   keyboardType: TextInputType.number,
                   maxLength: 11, // <- Limit input to 11 characters
                   decoration: InputDecoration(
-                    hintText: "Enter Phone Number ..",
+                    hintText: "Enter Phone Number",
                     counterText:
                         '', // Hides the default counter below the field
                   ),
                 ),
                 TextField(
                   controller: addressController,
-                  decoration: InputDecoration(hintText: "Enter Address .."),
+                  decoration: InputDecoration(hintText: "Enter Address"),
                 ),
               ],
             ),
